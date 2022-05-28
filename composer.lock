@@ -4,8 +4,94 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "193534ef945b7cf28c0c8671e85eb511",
-    "packages": [],
+    "content-hash": "b1bc3514f3a25e1a9744a71ba7b14703",
+    "packages": [
+        {
+            "name": "arslanimamutdinov/iso-standard-4217",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arslanim/iso-standard-4217.git",
+                "reference": "e4d7f2ccb72de19e281f97efdcbd51f0e4c64ef5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arslanim/iso-standard-4217/zipball/e4d7f2ccb72de19e281f97efdcbd51f0e4c64ef5",
+                "reference": "e4d7f2ccb72de19e281f97efdcbd51f0e4c64ef5",
+                "shasum": ""
+            },
+            "require": {
+                "arslanimamutdinov/iso-standard-utilities": "1.0.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.90",
+                "phpunit/phpunit": "^8.5",
+                "squizlabs/php_codesniffer": "3.6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arslanimamutdinov\\ISOStandard4217\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arslan Imamutdinov",
+                    "email": "ara.imamutdinov@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/arslanim/iso-standard-4217/issues",
+                "source": "https://github.com/arslanim/iso-standard-4217/tree/v1.0.0"
+            },
+            "time": "2022-03-21T21:36:50+00:00"
+        },
+        {
+            "name": "arslanimamutdinov/iso-standard-utilities",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arslanim/iso-standard-utilities.git",
+                "reference": "4d39a187bf8340eb827b9fd73dfb74ba8bcdfcb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arslanim/iso-standard-utilities/zipball/4d39a187bf8340eb827b9fd73dfb74ba8bcdfcb1",
+                "reference": "4d39a187bf8340eb827b9fd73dfb74ba8bcdfcb1",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.90",
+                "phpunit/phpunit": "^8.5",
+                "squizlabs/php_codesniffer": "3.6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arslanimamutdinov\\ISOStandardUtilities\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arslan Imamutdinov",
+                    "email": "ara.imamutdinov@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/arslanim/iso-standard-utilities/issues",
+                "source": "https://github.com/arslanim/iso-standard-utilities/tree/v1.0.1"
+            },
+            "time": "2022-03-20T15:56:28+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
