@@ -14,7 +14,7 @@ class MoneyValueFactory
      */
     public function create(string $currency, int $units, int $nano): MoneyValue
     {
-        $isoCurrency = ISO4217::getByAlpha3($currency);
+        $isoCurrency = ISO4217::getByAlpha3(strtoupper($currency));
 
         if (!$isoCurrency instanceof Currency) {
             throw new UnknownMoneyValueCurrencyException($currency);
