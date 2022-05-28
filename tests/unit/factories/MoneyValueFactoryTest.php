@@ -4,6 +4,7 @@ namespace rocketfellows\TinkoffInvestV1Common\tests\unit\factories;
 
 use PHPUnit\Framework\TestCase;
 use rocketfellows\TinkoffInvestV1Common\exceptions\factories\moneyValue\UnknownMoneyValueCurrencyException;
+use rocketfellows\TinkoffInvestV1Common\factories\MoneyValueFactory;
 use rocketfellows\TinkoffInvestV1Common\models\MoneyValue;
 
 /**
