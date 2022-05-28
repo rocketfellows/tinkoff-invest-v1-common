@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1653772902">
-  <project timestamp="1653772902">
+<coverage generated="1653774711">
+  <project timestamp="1653774711">
+    <file name="/app/src/exceptions/BaseException.php">
+      <class name="rocketfellows\TinkoffInvestV1Common\exceptions\BaseException" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/app/src/exceptions/factories/BaseFactoryException.php">
+      <class name="rocketfellows\TinkoffInvestV1Common\exceptions\factories\BaseFactoryException" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/app/src/exceptions/factories/moneyValue/MoneyValueFactoryException.php">
+      <class name="rocketfellows\TinkoffInvestV1Common\exceptions\factories\moneyValue\MoneyValueFactoryException" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/app/src/exceptions/factories/moneyValue/UnknownMoneyValueCurrencyException.php">
+      <class name="rocketfellows\TinkoffInvestV1Common\exceptions\factories\moneyValue\UnknownMoneyValueCurrencyException" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
+      </class>
+      <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="19" type="stmt" count="2"/>
+      <line num="22" type="method" name="getCurrency" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <metrics loc="27" ncloc="27" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
+    </file>
+    <file name="/app/src/factories/MoneyValueFactory.php">
+      <class name="rocketfellows\TinkoffInvestV1Common\factories\MoneyValueFactory" namespace="global">
+        <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </class>
+      <line num="15" type="method" name="create" visibility="public" complexity="2" crap="2" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="2"/>
+      <line num="23" type="stmt" count="6"/>
+      <metrics loc="26" ncloc="23" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+    </file>
     <file name="/app/src/models/MoneyValue.php">
       <class name="rocketfellows\TinkoffInvestV1Common\models\MoneyValue" namespace="global">
         <metrics complexity="5" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="12" coveredelements="12"/>
       </class>
-      <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="15" type="stmt" count="2"/>
-      <line num="16" type="stmt" count="2"/>
-      <line num="17" type="stmt" count="2"/>
-      <line num="20" type="method" name="getCurrency" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="22" type="stmt" count="2"/>
-      <line num="25" type="method" name="getUnits" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="27" type="stmt" count="2"/>
-      <line num="30" type="method" name="getNano" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="32" type="stmt" count="2"/>
-      <line num="35" type="method" name="getCurrencyCode" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="37" type="stmt" count="2"/>
+      <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="15" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="20" type="method" name="getCurrency" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="22" type="stmt" count="8"/>
+      <line num="25" type="method" name="getUnits" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="27" type="stmt" count="8"/>
+      <line num="30" type="method" name="getNano" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="32" type="stmt" count="8"/>
+      <line num="35" type="method" name="getCurrencyCode" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="37" type="stmt" count="8"/>
       <metrics loc="40" ncloc="40" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="12" coveredelements="12"/>
     </file>
-    <metrics files="1" loc="40" ncloc="40" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="12" coveredelements="12"/>
+    <metrics files="6" loc="123" ncloc="120" classes="3" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="22" coveredelements="20"/>
   </project>
 </coverage>
