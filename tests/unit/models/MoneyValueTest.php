@@ -6,34 +6,12 @@ use arslanimamutdinov\ISOStandard4217\Currency;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use rocketfellows\TinkoffInvestV1Common\models\MoneyValue;
-use TypeError;
 
 /**
  * @group models
  */
 class MoneyValueTest extends TestCase
 {
-    public function testInvalidCurrencyThrowsTypeError(): void
-    {
-        $this->expectException(TypeError::class);
-
-        (new MoneyValue(null, 100, 100));
-    }
-
-    public function testInvalidUnitsThrowsTypeError(): void
-    {
-        $this->expectException(TypeError::class);
-
-        (new MoneyValue($this->getCurrencyMock(), null, 100));
-    }
-
-    public function testInvalidNanoThrowsTypeError(): void
-    {
-        $this->expectException(TypeError::class);
-
-        (new MoneyValue($this->getCurrencyMock(), 100, null));
-    }
-
     /**
      * @dataProvider getCorrectInitializationProvidedData
      */
