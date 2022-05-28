@@ -43,11 +43,12 @@ class MoneyValueTest extends TestCase
         $this->assertEquals($currency, $moneyAmount->getCurrency());
         $this->assertEquals($units, $moneyAmount->getUnits());
         $this->assertEquals($nano, $moneyAmount->getNano());
+        $this->assertEquals($currency->getAlpha3(), $moneyAmount->getCurrencyCode());
     }
 
     public function getCorrectInitializationProvidedData(): array
     {
-        $currency = $this->getCurrencyMock();
+        $currency = $this->getCurrencyMock('name', 'alpha3Code', 'numericCode');
 
         return [
             [
@@ -63,10 +64,13 @@ class MoneyValueTest extends TestCase
         ];
     }
 
-    private function getCurrencyMock(): Currency
+    private function getCurrencyMock(string $name, string $alpha3, string $numericCode): Currency
     {
         /** @var MockObject|Currency $mock */
         $mock = $this->createMock(Currency::class);
+        $mock->method('getName')->willReturn($name);
+        $mock->method('getAlpha3')->willReturn($alpha3);
+        $mock->method('getNumericCode')->willReturn($numericCode);
 
         return $mock;
     }
