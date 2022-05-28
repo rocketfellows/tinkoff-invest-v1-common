@@ -32,7 +32,7 @@ class MoneyValueFactoryTest extends TestCase
         $moneyValue = $this->moneyValueFactory->create($currency, $units, $nano);
 
         $this->assertInstanceOf(MoneyValue::class, $moneyValue);
-        $this->assertEquals($currency, $moneyValue->getCurrencyCode());
+        $this->assertEquals(strtoupper($currency), $moneyValue->getCurrencyCode());
         $this->assertEquals($units, $moneyValue->getUnits());
         $this->assertEquals($nano, $moneyValue->getNano());
     }
