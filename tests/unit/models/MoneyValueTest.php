@@ -5,6 +5,7 @@ namespace rocketfellows\TinkoffInvestV1Common\tests\unit\models;
 use arslanimamutdinov\ISOStandard4217\Currency;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
+use rocketfellows\TinkoffInvestV1Common\models\MoneyValue;
 use TypeError;
 
 /**
