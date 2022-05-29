@@ -3,6 +3,7 @@
 namespace rocketfellows\TinkoffInvestV1Common\tests\unit\models;
 
 use PHPUnit\Framework\TestCase;
+use rocketfellows\TinkoffInvestV1Common\models\Quotation;
 
 /**
  * @group models
