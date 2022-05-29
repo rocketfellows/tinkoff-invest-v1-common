@@ -3,6 +3,7 @@
 namespace rocketfellows\TinkoffInvestV1Common\tests\unit\factories;
 
 use PHPUnit\Framework\TestCase;
+use rocketfellows\TinkoffInvestV1Common\factories\QuotationFactory;
 
 /**
  * @group factories
