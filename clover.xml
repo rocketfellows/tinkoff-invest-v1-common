@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656276786">
-  <project timestamp="1656276786">
+<coverage generated="1656277053">
+  <project timestamp="1656277053">
     <file name="/app/src/exceptions/BaseException.php">
       <class name="rocketfellows\TinkoffInvestV1Common\exceptions\BaseException" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
